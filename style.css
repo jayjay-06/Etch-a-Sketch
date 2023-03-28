@@ -1,0 +1,41 @@
+.container {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+
+.textheader {
+text-align: center;
+font-size: 70px;
+}
+
+.grid-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: grid;
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 1PX solid rgb(102, 102, 102);
+    box-shadow: 2px 5px 7px rgb(218, 215, 215);
+    align-self: center;
+}
+.grid-container > div {
+border: 1px solid rgb(100, 100, 100);
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 2px;
+}
+button {
+    height: 50px;
+    width: 100px;
+
+}
